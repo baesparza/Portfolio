@@ -1,0 +1,45 @@
+footer{
+    border-top: solid 1px rgb(35, 40, 45);
+}
+
+.footer-distributed{
+	background-color: rgb(220,220,220);
+    color: rgb(35, 40, 45);
+    box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: normal 16px Raleway;
+	padding: 20px 50px;
+}
+
+.footer-distributed .footer-left p{
+	color: rgb(35, 40, 45);
+	font-size: 15px;
+	margin: 2px;
+}
+
+.footer-distributed .footer-right{
+	float: right;
+	margin-top: 2px;
+	max-width: 180px;
+}
+
+.footer-distributed .footer-right a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	background-color:  rgb(35, 40, 45);
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: rgb(220,220,220);
+	text-align: center;
+	line-height: 35px;
+
+	margin-left: 3px;
+}
+
+.footer-left a {
+    color: rgb(35, 40, 45);
+    text-decoration: none;
+}
