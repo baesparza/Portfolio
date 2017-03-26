@@ -1,7 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { SKILLINFO } from '../Common/skilltinfo';
 
-
 @Component({
   selector: 'app-skills',
   templateUrl: './skills.component.html',

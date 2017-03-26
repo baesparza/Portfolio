@@ -10,10 +10,16 @@
     <p><i class="fa fa-envelope header-margin-right fa-fw"></i>{{headerInfo.correo}}</p>
     <p><i class="fa fa-whatsapp header-margin-right fa-fw"></i>+{{headerInfo.whatsApp}}</p>
     <hr>
-    <p class="w3-large"><b><i class="fa fa-asterisk header-margin-right fa-fw"></i>Skills</b></p>
+    <p><b><i class="fa fa-asterisk header-margin-right fa-fw"></i>Skills</b></p>
     <app-skills
     [skillInfo] = 'skill_Info'
     *ngFor='let skill_Info of skillInfos'
     ></app-skills>
+    <hr>
+    <p><b><i class="fa fa-globe header-margin-right fa-fw"></i>Languages</b></p>
+    <app-languages
+    [languageInfo]='languages_Info'
+    *ngFor="let languages_Info of languagesInfos"
+    ></app-languages>
   </div>
 </header>
