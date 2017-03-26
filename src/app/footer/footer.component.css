@@ -1,10 +1,11 @@
 footer{
-    border-top: solid 1px rgb(35, 40, 45);
+	margin-top: 20px;
+    border: transparent;
 }
 
 .footer-distributed{
-	background-color: rgb(220,220,220);
-    color: rgb(35, 40, 45);
+	background-color: darkslategrey;
+    color: #f1f1f1 !important;
     box-sizing: border-box;
 	width: 100%;
 	text-align: left;
@@ -13,7 +14,7 @@ footer{
 }
 
 .footer-distributed .footer-left p{
-	color: rgb(35, 40, 45);
+	color: #f1f1f1 !important;
 	font-size: 15px;
 	margin: 2px;
 }
@@ -28,11 +29,11 @@ footer{
 	display: inline-block;
 	width: 35px;
 	height: 35px;
-	background-color:  rgb(35, 40, 45);
+	background-color:  #f1f1f1 !important;
 	border-radius: 2px;
 
 	font-size: 20px;
-	color: rgb(220,220,220);
+	color: darkslategrey;
 	text-align: center;
 	line-height: 35px;
 
@@ -40,6 +41,6 @@ footer{
 }
 
 .footer-left a {
-    color: rgb(35, 40, 45);
+    color: #f1f1f1 !important;
     text-decoration: none;
 }
