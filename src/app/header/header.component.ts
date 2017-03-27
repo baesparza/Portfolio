@@ -35,7 +35,7 @@ const skillInfos: SKILLINFO[] = [
   porcentage:80,
   current: true
   },{
-  skill:"JS",
+  skill:"JS/TS",
   porcentage:30,
   current: true
   },

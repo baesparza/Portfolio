@@ -1,25 +1,27 @@
 <header>
   <img class="img-responsive center-block" alt="foto" [src]="headerInfo.foto">
-  <div class="text-center">
-    <h1>{{headerInfo.name}}</h1>
-  </div>
-  <hr>
-  <div class="container">
-    <p><i class="fa fa-briefcase header-margin-right fa-fw"></i>{{headerInfo.especialidad}}</p>
-    <p><i class="fa fa-home header-margin-right fa-fw"></i>{{headerInfo.ciudad}}</p>
-    <p><i class="fa fa-envelope header-margin-right fa-fw"></i>{{headerInfo.correo}}</p>
-    <p><i class="fa fa-whatsapp header-margin-right fa-fw"></i>+{{headerInfo.whatsApp}}</p>
+  <div class="header-container">
+    <div class="text-center">
+      <h1>{{headerInfo.name}}</h1>
+    </div>
     <hr>
-    <p><b><i class="fa fa-asterisk header-margin-right fa-fw"></i>Skills</b></p>
-    <app-skills
-    [skillInfo] = 'skill_Info'
-    *ngFor='let skill_Info of skillInfos'
-    ></app-skills>
-    <hr>
-    <p><b><i class="fa fa-globe header-margin-right fa-fw"></i>Languages</b></p>
-    <app-languages
-    [languageInfo]='languages_Info'
-    *ngFor="let languages_Info of languagesInfos"
-    ></app-languages>
+    <div class="container">
+      <p><i class="fa fa-briefcase header-margin-right fa-fw"></i>{{headerInfo.especialidad}}</p>
+      <p><i class="fa fa-home header-margin-right fa-fw"></i>{{headerInfo.ciudad}}</p>
+      <p><i class="fa fa-envelope header-margin-right fa-fw"></i>{{headerInfo.correo}}</p>
+      <p><i class="fa fa-whatsapp header-margin-right fa-fw"></i>+{{headerInfo.whatsApp}}</p>
+      <hr>
+      <p><b><i class="fa fa-asterisk header-margin-right fa-fw"></i>Skills</b></p>
+      <app-skills
+      [skillInfo] = 'skill_Info'
+      *ngFor='let skill_Info of skillInfos'
+      ></app-skills>
+      <hr>
+      <p><b><i class="fa fa-globe header-margin-right fa-fw"></i>Languages</b></p>
+      <app-languages
+      [languageInfo]='languages_Info'
+      *ngFor="let languages_Info of languagesInfos"
+      ></app-languages>
+    </div>
   </div>
 </header>
