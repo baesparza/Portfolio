@@ -1,9 +1,9 @@
-.proyectos-container{
+.studies-container{
     font-family: Roboto;
     padding: 20px 10px;
 }
 
-#proyectosSection{
+#studiesSection{
     margin: 0px 10px 20px 10px;
     background-color: white;
     color: #222!important;;
@@ -23,6 +23,7 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     margin-right: 16px!important;
+    color: darkslategray;
 }
 
 p {

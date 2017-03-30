@@ -9,6 +9,9 @@ import { HeaderComponent } from './header/header.component';
 import { ProyectosComponent } from './proyectos/proyectos.component';
 import { SkillsComponent } from './skills/skills.component';
 import { LanguagesComponent } from './languages/languages.component';
+import { StudiesComponent } from './studies/studies.component';
+import { EducationComponent } from './education/education.component';
+import { ProyectoComponent } from './proyecto/proyecto.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +20,10 @@ import { LanguagesComponent } from './languages/languages.component';
     HeaderComponent,
     ProyectosComponent,
     SkillsComponent,
-    LanguagesComponent
+    LanguagesComponent,
+    StudiesComponent,
+    EducationComponent,
+    ProyectoComponent
   ],
   imports: [
     BrowserModule,

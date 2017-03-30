@@ -30,3 +30,9 @@
     margin-top: 20px;
     border-radius: 0px;
 }
+
+@media (min-width: 1450px) {
+    .container{
+        width: 1400px;
+    }
+}

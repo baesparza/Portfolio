@@ -16,4 +16,10 @@ export class SkillsComponent implements OnInit {
   ngOnInit() {
   }
 
+  ifStillActive() {
+    if (this.skillInfo.current == true) {
+      return true;
+    }
+  }
+
 }

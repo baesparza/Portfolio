@@ -28,11 +28,11 @@ const skillInfos: SKILLINFO[] = [
   current: true
   },{
   skill:"HTML 5",
-  porcentage:90,
-  current: false
+  porcentage:65,
+  current: true
   },{
   skill:"CSS/Bootstrap",
-  porcentage:80,
+  porcentage:70,
   current: true
   },{
   skill:"JS/TS",
@@ -43,7 +43,7 @@ const skillInfos: SKILLINFO[] = [
 
 const languagesInfos: LANGUAGESINFO[] = [{
   language: "Español",
-  porcentage: 90
+  porcentage: 85
 },{
   language: "Ingles",
   porcentage: 60

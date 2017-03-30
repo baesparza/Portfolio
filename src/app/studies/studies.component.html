@@ -1,0 +1,12 @@
+<section id="studiesSection">
+  <div class="studies-container">
+    <div class="container">
+      <h2><i class="fa fa-certificate fa-fw studies-margin-right"></i>Education</h2>
+      <app-education 
+      [educationinfo] = "studies_info"
+      *ngFor="let studies_info of studiesInfos" 
+      >
+      </app-education>
+    </div>
+  </div>
+</section>

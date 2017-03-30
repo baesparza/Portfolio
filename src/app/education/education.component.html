@@ -1,0 +1,10 @@
+<br>
+<h5><b>{{educationinfo.were}}</b></h5>
+<h6>
+    <i class="fa fa-calendar fa-fw studies-margin-right"></i>
+    {{educationinfo.start}}
+    <span *ngIf='educationinfo.finish != none;'> - 
+        <span [class.textcolor]="iftextcolor()" >{{educationinfo.finish}}</span>
+    </span>
+</h6>
+<p>{{educationinfo.leyend}}</p>
