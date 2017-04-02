@@ -4,33 +4,15 @@ import { PROYECTO } from '../Common/proyecto';
 const proyectos : PROYECTO[] = [{
     id : 1,
     name : "Aaron Swart Tribute Page",
-    image : "",
+    image : "https://upload.wikimedia.org/wikipedia/commons/2/26/Aaron_Swartz_2_at_Boston_Wikipedia_Meetup%2C_2009-08-18.jpg",
     repo : "https://github.com/baesparza/Tribute-Page-Aaron-Swart.git",
     link : "https://baesparza.github.io/Tribute-Page-Aaron-Swart/"
 },{
     id : 2,
-    name : "Aaron Swart Tribute Page",
-    image : "",
-    repo : "https://github.com/baesparza/Tribute-Page-Aaron-Swart.git",
-    link : "https://baesparza.github.io/Tribute-Page-Aaron-Swart/"
-},{
-    id : 3,
-    name : "Aaron Swart Tribute Page",
-    image : "",
-    repo : "https://github.com/baesparza/Tribute-Page-Aaron-Swart.git",
-    link : "https://baesparza.github.io/Tribute-Page-Aaron-Swart/"
-},{
-    id : 4,
-    name : "Aaron Swart Tribute Page",
-    image : "",
-    repo : "https://github.com/baesparza/Tribute-Page-Aaron-Swart.git",
-    link : "https://baesparza.github.io/Tribute-Page-Aaron-Swart/"
-},{
-    id : 5,
-    name : "Aaron Swart Tribute Page",
-    image : "",
-    repo : "https://github.com/baesparza/Tribute-Page-Aaron-Swart.git",
-    link : "https://baesparza.github.io/Tribute-Page-Aaron-Swart/"
+    name : "EL Ahorcado",
+    image : "http://hechoecologico.weebly.com/uploads/1/8/5/3/18533360/1238205.png?241",
+    repo : "https://github.com/baesparza/El-Ahorcado",
+    link : "https://repl.it/FT27/55"
 }]
 
 @Component({
@@ -54,7 +36,7 @@ export class ProyectosComponent implements OnInit {
     var lastproyects: PROYECTO[];
 
     if (len > 3) {
-      lastproyects = [this.proyectos[len - 1],this.proyectos[len - 2],this.proyectos[len - 3]];
+      lastproyects = [this.proyectos[len - 1],this.proyectos[len - 2]];
     } else {
       lastproyects = this.proyectos;
     }

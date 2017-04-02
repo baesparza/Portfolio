@@ -1,4 +1,9 @@
-<div class="col-md-4">
-  <h5><b>{{proyecto.id}}</b></h5>
-  <p></p>
+<div class="col-md-6">
+  <img class="img-responsive center-block" alt="AARON SWART" [src]="proyecto.image" id="image">
+  <h5>{{proyecto.name}}</h5>
+  <hr>
+  <div align="right">
+    <a class="btn" role="button" [href]="proyecto.link" target="_blank">Visit</a>
+    <a class="a-ref" [href]="proyecto.repo" target="_blank">Repository</a>
+  </div>
 </div>

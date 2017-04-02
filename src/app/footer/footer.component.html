@@ -1,12 +1,16 @@
-<footer class="footer-distributed">
-	<div class="footer-right">
-		<a [href]="AutorInfo.facebook" target="_blank"><i class="fa fa-facebook"></i></a>
-		<a [href]="AutorInfo.twitter" target="_blank"><i class="fa fa-twitter"></i></a>
-		<a [href]="AutorInfo.github_profile" target="_blank"><i class="fa fa-github"></i></a>
+<footer>
+	<div class="row">
+		<div class="col-md-4">
+			<div class="footer-right">
+				<a [href]="AutorInfo.facebook" target="_blank"><i class="fa fa-facebook"></i></a>
+				<a [href]="AutorInfo.twitter" target="_blank"><i class="fa fa-twitter"></i></a>
+				<a [href]="AutorInfo.github_profile" target="_blank"><i class="fa fa-github"></i></a>
+			</div>
+			<div class="footer-left">
+				<p>{{AutorInfo.autor}}</p>
+				<p><b><a [href]="AutorInfo.github_repo" target="_blank">This Project on GitHub</a></b></p>
+				<p>Code licensed under <b><a [href]="AutorInfo.license" target="_blank">MIT License</a></b></p>
+			</div>
+		</div>
 	</div>
-	<div class="footer-left">
-		<p>{{AutorInfo.autor}}</p>
-        <p><b><a [href]="AutorInfo.github_repo" target="_blank">This Project on GitHub</a></b></p>
-        <p>Code licensed under <b><a [href]="AutorInfo.license" target="_blank">MIT License</a></b></p>
-	</div>
-</footer>
+</footer> 
