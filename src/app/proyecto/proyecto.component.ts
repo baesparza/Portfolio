@@ -16,4 +16,12 @@ export class ProyectoComponent implements OnInit {
   ngOnInit() {
   }
 
+  ifactive () {
+      if (this.proyecto.link == null) {
+        return true;
+      } else {
+        return false;
+      }
+  }
+
 }

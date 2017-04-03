@@ -10,9 +10,7 @@ const proyectos : PROYECTO[] = [{
 },{
     id : 2,
     name : "EL Ahorcado",
-    image : "http://hechoecologico.weebly.com/uploads/1/8/5/3/18533360/1238205.png?241",
     repo : "https://github.com/baesparza/El-Ahorcado",
-    link : "https://repl.it/FT27/55"
 }]
 
 @Component({
